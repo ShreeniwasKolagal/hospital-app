@@ -27,7 +27,7 @@ const SignUp = () => {
         e.preventDefault();
         console.log('Signup for data: ',formData);
         try {
-            const response = await fetch(`${API_BASE}/register`, {
+            const response = await fetch(`${API_BASE}/api/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -30,7 +30,7 @@ const Login = () => {
 
     try {
       // Send login request to the backend
-      const response = await fetch(`${API_BASE}/login`, {
+      const response = await fetch(`${API_BASE}/api/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

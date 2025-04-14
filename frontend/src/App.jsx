@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login.jsx";
 import Signup from "./components/Signup.jsx";
-import EntryPage from "./components/EntryPage.jsx";
+// import EntryPage from "./components/EntryPage.jsx";
 import Home from "./components/Home.jsx";
 import DoctorHome from "./components/DoctorHome.jsx";
 import PatientHome from "./components/PatientHome.jsx";

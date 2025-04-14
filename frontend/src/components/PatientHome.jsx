@@ -8,7 +8,7 @@ const PatientHome = () => {
 
     // Fetch appointments for the patient
     useEffect(() => {
-        fetch(`${API_BASE}/get-appointments`,
+        fetch(`${API_BASE}/api/get-appointments`,
             {
                 method: 'POST',
                 headers: {

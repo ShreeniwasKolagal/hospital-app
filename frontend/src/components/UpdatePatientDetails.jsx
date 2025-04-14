@@ -15,7 +15,7 @@ const UpdatePatientDetails = () => {
         setError('');
 
         try {
-            const response = await fetch(`${API_BASE}/updatepatient`, {
+            const response = await fetch(`${API_BASE}/api/updatepatient`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

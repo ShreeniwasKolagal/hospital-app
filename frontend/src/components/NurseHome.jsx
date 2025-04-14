@@ -7,7 +7,7 @@ const NurseHome = () => {
     const [patients, setPatients] = useState([]);
 
     useEffect(() => {
-        fetch(`${API_BASE}/patients`)
+        fetch(`${API_BASE}/api/patients`)
             .then(response => {
                 if (!response.ok) {
                     console.error(response.json());

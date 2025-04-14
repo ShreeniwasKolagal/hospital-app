@@ -23,7 +23,7 @@ const AddPatient = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`${API_BASE}/patients`, {
+            const response = await fetch(`${API_BASE}/api/patients`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
