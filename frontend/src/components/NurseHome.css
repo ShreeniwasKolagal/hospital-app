@@ -1,0 +1,48 @@
+.doctor-home {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: violet;
+}
+
+.patients-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.patient-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 4px violet;
+}
+
+.patient-card h2 {
+  margin-top: 0;
+  color: violet;
+}
+
+.patient-card p {
+  margin: 8px 0;
+  color: #555;
+}
+
+a {
+  background-color: violet;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  align-self: center;
+  padding: 10px;
+  margin: 20px;
+}

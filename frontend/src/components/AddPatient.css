@@ -1,0 +1,18 @@
+button {
+  margin: 10px;
+  max-width: 800px;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  background-color: violet;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#healthData {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}

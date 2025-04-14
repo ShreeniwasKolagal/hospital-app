@@ -1,0 +1,109 @@
+/*Basic Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: cursive;
+}
+
+/*Body*/
+body {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  color: violet;
+  margin: 10px 0 10px 0;
+}
+
+p {
+  color: black;
+  margin: 10px 0 10px 0;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: violet;
+}
+
+.login-button {
+  padding: 10px;
+  color: white;
+  background-color: violet;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.signup-button {
+  padding: 10px;
+  color: white;
+  background-color: violet;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+a {
+  padding: 1px;
+  text-decoration: none;
+  color: violet;
+}

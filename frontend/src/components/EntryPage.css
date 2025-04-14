@@ -1,0 +1,133 @@
+/*Step 1: Basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+}
+
+/*Step 2: body*/
+body {
+  font-family: cursive;
+}
+
+/*Step 3: Home container*/
+.home-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/*Header Hero section*/
+.hero-section {
+  background: url("../assets/hospital.png") no-repeat center center/cover;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-subtitle {
+  background: transparent;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.hero-button {
+  background-color: violet;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  align-self: center;
+  padding: 10px;
+}
+
+/*About section*/
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+/*Stats section*/
+.stats-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.stats-section h3 {
+  font-size: 20px;
+  color: violet;
+  margin: 10px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats-item {
+  text-align: center;
+}
+
+/*How to donate*/
+.how-to-donate {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.how-to-donate h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.how-to-donate ol {
+  margin: 30px auto;
+  padding-left: 20px;
+  max-width: 500px;
+}
+
+.how-to-donate li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.donate-link {
+  background-color: violet;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 180px;
+  align-self: center;
+  padding: 10px;
+}
+
+/*Footer*/
+.footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  background-color: #333;
+}
